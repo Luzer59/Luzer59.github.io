@@ -1,6 +1,6 @@
 body
 {
-	background-image: url("/img/hexagon_pattern.png");
+	/*background-image: url("../img/hexagon_pattern_recolor1.png");*/
 }
 
 #wrap
@@ -9,87 +9,42 @@ body
 	margin:  0px auto 15px auto;
 	font-family: Arial;
 	font-size: 14px;
-	color: #000066;
-}
-
-#topmenu
-{
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	font-size: 30px;
-}
-
-#topmenu ul 
-{
-    list-style-type: none;
-    overflow: hidden;
-}
-
-#topmenu li 
-{
-    display: inline-block;
-}
-
-#topmenu li a 
-{
-    display: block;
-    color: white;
-    padding: 10px 10px;
-    text-decoration: none;
-    color: #BFBFBF;
-}
-
-#topmenu a:active
-{
-	background-color: #0E466B;
-}
-
-#topmenu a:hover
-{
-	background-color: #0E466B;
+	color: #000000;
 }
 
 #header
 {
-	height: 10px;
-	background-image: url(img/header.png) no-repeat left top;
 	clear: both;
 }
 
 #content
 {
-
+	padding:10px;
+	box-shadow: 0px 0px 5px 1px rgb(31, 31, 31);
+	background-color: rgb(200, 200, 200);
+	height: 1000px;
 }
 
 #mainpage
 {
-	font-size: 90px;
-	text-align: center;
-	color: #BFBFBF;
+	
 }
 
 #footer
 {
-
-}
-
-#bottomimg
-{
-	position: fixed;
-	bottom: -10px;
-	right: -300px;
-	padding: 0;
-	margin: 0;
-}
-
-h2
-{
-
+	margin:10px 0px 10px;
+	font-size: 12px;
+	color: rgb(178, 178, 178);
+	text-align: center;
 }
 
 .center
 {
 	text-align:center;
 	display:block;
+}
+
+.boxshadow
+{
+	box-shadow: 0px 0px 5px 20px #888888;
 }
